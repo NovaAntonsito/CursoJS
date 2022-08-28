@@ -1,0 +1,10 @@
+var nombre = "Marcos",
+    apellido = "Anton";
+var estudiante = nombre.concat(" ", apellido);
+var estudianteMayus = estudiante.toUpperCase(),
+    estudianteMinus = estudiante.toLowerCase();
+var letras = estudiante.length;
+var inicial = estudiante.charAt(0);
+var inicialAp = estudiante.charAt(estudiante.indexOf("Anton"))
+var nombreTrim = estudiante.trim();
+var nombreBool = estudiante.startsWith("Marcos")
